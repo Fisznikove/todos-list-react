@@ -1,0 +1,17 @@
+
+.list__item {
+    display: grid;
+    grid-template-columns: auto 5fr auto; 
+    grid-gap: 10px;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding:10px;
+}
+
+.list__item--done {
+    text-decoration: line-through;
+}
+
+.tasks__item--hidden {
+    display: none;
+}
